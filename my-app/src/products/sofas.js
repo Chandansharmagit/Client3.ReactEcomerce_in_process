@@ -18,7 +18,7 @@ export default function Sofa({ products, addToCart }) {
     setSearchQuery(e.target.value);
   };
   const handleChangeFilters = () => {
-    setHide(!hide);
+    setHide(!hide);//setting the hide to projectsi in the console to the ara in the console of the producrts in the consolen
     sethidden(hide ? "show products" : "hide products");
   };
 
