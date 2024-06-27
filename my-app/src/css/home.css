@@ -1,0 +1,65 @@
+.images{
+    height: auto;
+    width: 100%;
+}
+
+/* //last imaeg of sb */
+
+.sb-images-col{
+    width: 90vw;
+    height: auto;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+#search-pp{
+    width: 80vw;
+    margin-left: 10rem;
+}
+#bb{
+    width: 10vw;
+   
+ 
+}
+#bb:hover{
+    background: orange;
+    border: none;
+}
+
+.collections-name{
+    text-align: center;
+    color: orange;
+    margin-top: 2rem;
+ 
+}
+span{
+    color: black;
+    font-style: italic;
+}
+.take-look{
+    text-align: center;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    .sb-images-col{
+        margin-top: 1rem;
+        width: 80vw;
+        margin-left: 1rem;
+        height: 20vh;
+        margin-bottom: 2rem;
+    }
+
+    #search-pp{
+        width: 90vw;
+        margin-left: 1rem;
+    }
+    #bb{
+        margin-left: 5px;
+        color: rgb(0, 0, 0);
+        border-color: rgb(194, 184, 184);
+        width: 20vw;
+    }
+
+
+}

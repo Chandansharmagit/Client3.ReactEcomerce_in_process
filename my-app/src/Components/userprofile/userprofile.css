@@ -1,0 +1,204 @@
+/* profile.css */
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  .HELL {
+    padding: 20px;
+    background: transparent;
+    border-radius: 12px;
+    margin: 2rem;
+    border: 1px solid black;
+  }
+  
+  .container.emp-profile {
+  
+    border-radius: 10px;
+  
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hr {
+    height: 2rem;
+  
+  }
+  
+  
+  .profile-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 90vw;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    margin-left: -10rem;
+  }
+  
+  .profile-img {
+    width: 20vw;
+    /* Adjust based on your design */
+    min-width: 150px;
+    /* Minimum width for the profile image */
+    margin-right: 20px;
+  }
+  
+  .profile-img img {
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  .profile-details {
+    flex: 1;
+  }
+  
+  .profile-head {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-head h5 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .profile-head h6 {
+    font-size: 1rem;
+    color: #000000;
+    margin: 5px 0;
+  }
+  
+  .proile-rating {
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 10px 0;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    border-bottom: none;
+  }
+  
+  .detailing {
+    margin-left: 12rem;
+  }
+  
+  
+  .nav-tabs .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-tabs .nav-link {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f4f4f4;
+    color: #000000;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background: rgb(99, 88, 88);
+    color: #fff;
+  }
+  
+  .tab-content {
+    padding: 20px 0;
+  }
+  
+  .tab-pane {
+    padding: 10px;
+  }
+  
+  .tab-pane label {
+    font-weight: bold;
+  }
+  
+  .tab-pane {
+    display: flex;
+    margin-left: auto;
+  
+  }
+  
+  
+  .tab-pane p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .col-md-12 {
+    margin-top: 3rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .profile-img {
+      width: 25vw;
+      /* Adjust for larger screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+  
+  
+    .container.emp-profile {
+  
+      border-radius: 10px;
+  
+      padding: 30px;
+  
+      flex-direction: column;
+    }
+  
+    .hr {
+      height: 2rem;
+  
+    }
+  
+    .tab-pane {
+      flex-direction: column;
+  
+    }
+  
+    .row {
+      margin: 1rem;
+    }
+  
+    
+    .profile-card {
+    
+      flex-direction: column;
+      margin-bottom: 20px;
+      width: 80vw;
+    
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 20px;
+      margin-left: -4rem;
+    }
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .profile-img {
+      width: 60vw;
+      /* Adjust for smaller screens */
+    }
+  }

@@ -1,0 +1,149 @@
+.header {
+  height: 5rem;
+  width: 100vw;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.9) 50%,
+      transparent 40%
+    ),
+    orange;
+}
+
+.col {
+  display: flex;
+}
+.search-bar {
+  margin-left: 50%;
+  margin-top: 1.5rem;
+}
+.title {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+/* styles.css */
+
+.titles {
+  margin-top: 1.5rem;
+  margin-left: 40%;
+}
+
+.smart {
+  color: orange;
+  cursor: pointer;
+  text-decoration: none;
+}
+.furntures {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  animation: blinking 3s linear infinite;
+}
+
+
+
+
+.search-bar {
+  margin:0;
+  padding:0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  
+  transition-duration: 0.2s;
+}
+#search_id{
+  color: white;
+}
+
+.textbox {
+  width: 0px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  line-height: 40px;
+  font-size: 25px;
+  height:45px;
+  background-color: transparent;
+  outline: none;
+  height: 100%;
+  float: left;
+
+  transition-duration: 0.05s;
+}
+
+.search-btn {
+  background-color: transparent;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-decoration: none;
+  /* border-left: 5px black solid; */
+  height: 100%;
+  transition-duration: 0.2s;
+}
+
+.search-btn p {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.search-bar:hover > .textbox {
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+  transition-duration: 0.2s;
+}
+
+.search-bar:hover > .search-btn {
+  border-left: 5px black solid;
+  transition-duration: 0.2s;
+}
+
+.search-btn:hover {
+  background-color: black;
+  transition-duration: 0.2s;
+}
+.search-btn:hover > p {
+  color: white;
+  transition-duration: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+@keyframes blinking {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .title{
+        margin-left: 1rem;
+    }
+
+    .furntures{
+        font-size: 15px;
+    } */
+  .header {
+    display: none;
+  }
+}

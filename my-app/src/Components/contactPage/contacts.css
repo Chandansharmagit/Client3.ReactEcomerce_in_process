@@ -1,0 +1,56 @@
+/* CSS for Contactpage component */
+
+/* Default styles */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .form-group {
+    flex: 1 0 50%;
+    padding: 0 15px;
+  }
+  
+  .form-group.col-md-6 {
+    flex: 1 0 100%;
+  }
+  
+  .form-group.col-md-4,
+  .form-group.col-md-2 {
+    flex: 1 0 50%;
+  }
+  
+  /* Input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Checkboxes */
+  .form-check-label {
+    margin-left: 10px;
+  }
+  
+  /* Submit button */
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .form-group {
+      flex: 1 0 100%;
+    }
+  }
+  

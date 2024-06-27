@@ -1,0 +1,76 @@
+.container-preginations {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+  }
+  
+  .item {
+    margin: 10px;
+    background: #000;
+    height: 15vh;
+    width: 100px;
+  }
+  
+  #item1 {
+    flex: 0 0 50vw;
+    height: 80vh;
+  }
+  
+  #item2 {
+    flex: 0 0 45vw;
+    height: 80vh;
+  }
+  
+  img {
+    width: 50vw;
+    height: 80vh;
+  }
+  .imgg{
+    width: 45vw;
+  }
+  
+  .ma {
+    height: 100vh;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container-preginations {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      height: auto; /* Adjust height automatically */
+    }
+  
+    .item {
+      width: 80vw; /* Adjust item width for smaller screens */
+    }
+    .ma{
+      height: auto;
+    }
+  
+    #item1,
+
+     img {
+      flex: 0 0 40vw; /* Reset flex properties for individual items */
+      /* Adjust item width for smaller screens */
+      height: auto; 
+      margin-left: -2rem;
+    }
+    #item2{
+      
+    }
+    .imgs{
+      flex: 0 0 40vw; /* Reset flex properties for individual items */
+      width: 93vw; /* Adjust item width for smaller screens */
+      height: auto; 
+      margin-left: -1rem;
+    }
+
+    .imgg {
+     flex: 0 0 40vw; /* Reset flex properties for individual items */
+     width: 93vw; /* Adjust item width for smaller screens */
+     height: auto; 
+     margin-left: -2rem;
+     
+   }
+  }
+  

@@ -1,0 +1,191 @@
+.new_products_details {
+  margin-top: 6rem;
+  height: auto;
+  width: 95vw;
+  margin-left: 2rem;
+}
+
+.fakeimg {
+  height: auto;
+}
+.side {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+ 
+  flex: 1 1 170px;
+  background-color: #ffffff;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+}
+
+
+
+/* //making the image slider for the all .products_categories */
+.features {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  margin-bottom: 2rem;
+
+}
+
+.search-products{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: orange;
+
+  
+}
+.show-detailss{
+  justify-content: center;
+  margin-top: auto;
+  margin-left: 14rem;
+}
+
+.allproducts {
+  
+ margin-left: auto;
+}
+
+
+
+.high{
+  background: rgb(238, 237, 235);
+}
+.list{
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.labels-for-price{
+  color: #000;
+  font-weight: bold;
+}
+.products_categories li{
+  cursor: pointer;
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+}
+.products_categories li:hover{
+  color: orange;
+}
+
+/* newproduct.css */
+.price-range-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price-range-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labels-for-price {
+  margin-bottom: 10px;
+}
+
+.range-slider {
+  position: relative;
+  width: 80%;
+}
+
+.range-slider input[type="range"] {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  -webkit-appearance: none;
+  z-index: 2;
+  height: 5px;
+  background: transparent;
+}
+
+.range-slider input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: orange;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.range-slider input[type="range"]::-moz-range-thumb {
+  pointer-events: all;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: orange;
+  cursor: pointer;
+}
+
+.range-slider input[type="range"]::-ms-thumb {
+  pointer-events: all;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background:orange;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .price-range-container {
+    flex-direction: column;
+  }
+
+  .range-slider {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .price-range-container {
+    gap: 10px;
+  }
+
+  .price-range-input {
+    align-items: flex-start;
+  }
+}
+
+
+
+
+/* //css for slider  */
+
+
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .side{
+    width: 90vw;
+    margin-right: 1rem;
+  }
+  .main{
+    width: 100vw;
+    margin-right: 2rem;
+  }
+  
+}

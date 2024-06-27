@@ -1,0 +1,88 @@
+/* Socketmassage.css */
+
+.socket-container {
+  width: 92vw;
+
+  margin: 0 auto;
+  padding: 20px;
+  height: 30vh;
+  background: rgb(249, 247, 247);
+}
+
+#filess {
+  color: orange;
+}
+
+/* .naming{
+  margin-right: 63rem;
+} */
+.socket-container h1 {
+
+  margin-bottom: 20px;
+}
+
+.socket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.file-name {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-control {
+    width: 100vw;
+    /* Make input field full width on phones */
+  }
+
+  .svg-container {
+    margin-top: 10px;
+    justify-content: flex-start;
+    /* Align SVG icon to the left */
+  }
+
+  .file-name {
+    margin-top: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+    width: 100%;
+    /* Make button full width on phones */
+  }
+}

@@ -1,0 +1,215 @@
+.col-pregination-products {
+  display: flex;
+
+  margin-top: 5rem;
+  background: rgb(249, 247, 247);
+  width: 92vw;
+  height: 80vh;
+}
+
+.row-pregination-products {
+  width: 30vw;
+  border-radius: 12px;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  height: 22vh;
+}
+
+/* //making the flex box for the addtocaerts */
+.increment_decrement {
+  display: flex;
+
+  column-gap: 29px;
+  width: 30vw;
+}
+
+#incrementings {
+  width: 3vw;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  color: orange;
+
+  background: transparent;
+}
+
+.chandan_related {
+  margin-left: 4rem;
+}
+
+.descritpion-pregination {
+  width: 50vw;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 29px;
+  width: 30vw;
+}
+
+.add-to-cart {
+  width: 22vw;
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+  background: orange;
+}
+
+.add-to-cart:hover {
+  background: rgb(194, 142, 47);
+}
+
+.product-image {
+  width: 200vw;
+  border-radius: 12px;
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.product-details {
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+  margin-right: 3rem;
+}
+
+.product-info {
+
+  margin-top: -2rem;
+
+}
+
+.pricess {
+  margin-left: 0rem;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.submits {
+  background: orange;
+  width: 15rem;
+  margin-left: 43%;
+}
+
+/* Default styles */
+.product-details-tabs {
+  display: flex;
+
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 6rem;
+  width: 92vw;
+}
+
+.product-details-tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
+
+.product-details-content {
+  padding: 20px;
+}
+
+.tab-content {
+  text-align: center;
+}
+
+p {
+  color: #000;
+}
+
+.tab-content h2 {
+  margin-top: 0;
+}
+
+/* Active tab */
+.product-details-tabs button.active {
+  color: orange;
+  /* Change to your active color */
+  border-bottom: 2px solid orange;
+  /* Change to your active color */
+}
+
+.desc {
+  color: orange;
+}
+
+.product-details-tab {
+
+  background: rgb(249, 247, 247);
+  width: 92vw;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.img {
+  width: 40vw;
+}
+
+.positions {
+  background: rgb(249, 247, 247);
+
+
+  text-align: center;
+  width: 92vw;
+
+  overflow-y: auto;
+
+  align-self: flex-start;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .col-pregination-products {
+    flex-direction: column;
+    width: 100vw;
+
+  }
+
+  .row-pregination-products {
+    width: 90vw;
+    margin-left: -0rem;
+    margin-right: 1rem;
+  }
+
+  .product-details {
+    height: 140vh;
+
+  }
+
+  .descritpion-pregination {
+    width: 80vw;
+  }
+
+  .product-info {
+    text-align: left;
+    margin-top: 10rem;
+    margin-left: -5rem;
+  }
+
+  .button_container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #news1 {
+    width: 60vw;
+  }
+
+  .product-details-tab {
+    margin-left: 1rem;
+  }
+
+  .product-details-tabs {
+    flex-direction: column;
+  }
+
+  .submits {
+    margin-left: 0rem;
+    width: 80vw;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {}

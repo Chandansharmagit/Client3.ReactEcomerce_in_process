@@ -1,0 +1,110 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px; /* Adjust gap between cards */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Default layout for larger screens */
+.grid-container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.names{
+  font-size: 17px;
+  margin-top: 2rem;
+}
+.pricing{
+  font-weight: bold;
+  color: orange;
+  font-style: italic;
+
+}
+.addtocart{
+  width: 20vw;
+  
+}
+.product-name{
+  color: #000;
+}
+.side {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide class - pushes the element out of view */
+.side.hide {
+  transform: translateX(-100%);
+}
+
+/* Show class - brings the element back into view */
+.side.show {
+  transform: translateX(0);
+}
+.product-name{
+  font-size: 16px;
+}
+
+/* Tablet-sized screens (adjust min-width and max-width as needed) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+}
+
+/* Mobile-sized screens */
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .addtocart{
+    width: 80vw;
+    
+  }
+  .image{
+    width: 90vw;
+    margin-left: 0rem;
+  }
+}
+
+.card {
+  background-color: #fff; /* Set desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  padding: 15px; /* Adjust padding if needed */
+  border-radius: 5px; /* Add border radius if desired */
+  text-align: center; /* Center content within cards */
+}
+
+.img-container {
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.image {
+  width: 100%;
+ 
+  height: auto; /* Maintain image aspect ratio */
+  object-fit: cover; /* Scale image to fill container while maintaining aspect ratio */
+}
+
+h1 {
+  margin-top: 10px; /* Adjust margin as needed */
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+p {
+  margin-bottom: 5px; /* Adjust margin as needed */
+  line-height: 1.5; /* Improve readability with slight line spacing */
+}
+
+/* Style for Add to Cart button */
+.addtocart {
+  background-color: orange; /* Orange color for button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding for button */
+  border-radius: 5px; /* Add border radius for button */
+  cursor: pointer; /* Indicate clickable button */
+}
+.addtocart:hover{
+    background: rgb(192, 141, 48);
+
+}

@@ -1,0 +1,76 @@
+
+/* html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+} */
+
+.swipers {
+  width: 95vw;
+  height: auto;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+ 
+}
+.images-sliderr{
+  display: block;
+  width: 4vw;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid orange;
+  color: orange;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.swiper-pagination-bullet{
+  color: orange;
+  background: orange;
+}
+.swiper-pagination-bullet{
+  display: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+}
